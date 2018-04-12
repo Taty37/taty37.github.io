@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$(".hide").hide();
 $(".readless").hide();
 
-$(".readmore").click(function(){
+$(".readmore").click(function(event){
 //prevent page from performing the default action
 		event.preventDefault();
 	$(".hide").show();
@@ -14,7 +14,7 @@ $(".readmore").click(function(){
 	$(".readmore").hide();
 });
 
-$(".readless").click(function(){
+$(".readless").click(function(event){
 		event.preventDefault();
 	$(".hide").hide();
 	//$(".hide").slideup();
@@ -22,19 +22,9 @@ $(".readless").click(function(){
 	$(".readmore").show();
 });
 
-		//dont attach event listener until page fully loads
-	$("#new-booking").submit(createBooking)
+$('.carousel').carousel({
+  interval: 2000
+})		
 
 })
 
-function createBooking(event){
-	event.preventDefault();
-	console.log("form submit")
-	// for five elements
-	// for title input element
-	// get user input
-	var titleInput = $("#name").val();
-	console.log("nameInput");
-	
-	// put in HTML element
-}
