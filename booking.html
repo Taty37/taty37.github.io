@@ -13,7 +13,7 @@
   </head>
   <body class="booking">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand font-italic" href="#">Marilyn's Monroe</a>
+  <a class="navbar-brand font-italic" href="#"><strong>Marilyn's Monroe</strong></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -52,7 +52,20 @@
       </div>
       <div class="form-group font-weight-bold">
         <label for="service">Service Type</label>
-        <input type="text" class="form-control" id="service" placeholder="Enter Service Type">
+        <div class="input-group mb-3">
+  <select class="custom-select" id="inputGroupSelect02">
+    <option selected>Choose...</option>
+    <option value="1">Glam</option>
+    <option value="2">Natural</option>
+    <option value="3">Bridal</option>
+    <option value="4">Editorial</option>
+    <option value="5">Film</option>
+    <option value="6">Halloween</option>
+  </select>
+  <div class="input-group-append">
+    <label class="input-group-text" for="inputGroupSelect02">Options</label>
+  </div>
+</div>
       </div>
       <div class="form-group font-weight-bold">
         <label for="details">Specific Requests</label>
@@ -62,7 +75,7 @@
     <label for="exampleFormControlFile1">Image Reference</label>
     <input type="file" class="form-control-file" id="exampleFormControlFile1">
   </div>
-      <button type="submit" class="btn btn-primary">Save Booking</button>
+      <button type="submit" class="btn btn-primary" id="book-btn">Book Now!!!</button>
     </form>
   </div>
 </div>

@@ -159,6 +159,7 @@ p: first-child; first-letter {}
 .fa:hover {
 	color: #282828;
     opacity: 0.7;
+    text-decoration: none;
 }
 
 h5{
@@ -195,8 +196,17 @@ ul {
 	float: right;
 }
 
+#book-btn {
+	background-color: #903;
+	border: 1px solid #903;
+}
+
 footer {
+	text-align: right;
+	color: #ffaa00;
+}
+
+.gal-footer {
 	text-align: center;
-	color: #903;
 }
 
