@@ -15,6 +15,7 @@
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: 50% 100%;
+	min-height: 100vh;
 	background-attachment: fixed;
 }
 
@@ -23,6 +24,7 @@
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: 50% 100%;
+	min-height: 100vh;
 	background-attachment: fixed;
 }
 
@@ -31,6 +33,7 @@
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: 50% 100%;
+	min-height: 100vh;
 	background-attachment: fixed;
 }
 
@@ -39,12 +42,14 @@
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 100vh;
+	background-attachment: fixed;
 }
 
 .row > div {
 
 	min-height: 100px;
-	max-width: 50%;
+	width: 50%;
 	border: none;
 }
 
@@ -202,11 +207,82 @@ ul {
 }
 
 footer {
-	text-align: right;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 	color: #ffaa00;
+	text-align: right;
 }
 
-.gal-footer {
-	text-align: center;
+@media (max-width: 768px){
+	.home {
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	#main-col-media1 {
+		max-width: 100%;
+	}
+	#main-col-media2 {
+		display: none;
+	}
+	.logo {
+		font-size: 56px;
+		padding: 0;
+		text-align: center;
+	}
+	.logo .word2 {
+		color: white;
+	}
+	#end-page {
+		width: 100%;
+	}
+	#end-page a {
+		color: white;
+	}
+	.linked-pages {
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	#art-header {
+		max-width: 100%;
+		color: white;
+		background: none;
+	}
+	#click {
+		display: none;
+	}
+	.readmore {
+		display: none;
+	}
+	.readless {
+		display: none;
+	}
+	.p-media {
+		font-size: 12px;
+	}
+	#service-bg {
+		background: black;
+	}
+	li {
+		font-size: 14px
+	}
+
+	.gal-col {
+		padding: 0;
+		max-width: 100%;
+	}
+	#gal-logo h1 {
+		font-size: 48px;
+		text-align: center;
+	}
+	.booking {
+		background: none;
+	}
+	#booking-main {
+		float: none;
+		width: 100%;
+	}
 }
+
 
