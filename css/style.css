@@ -8,6 +8,7 @@
  body {
 	margin: 32px;
 	padding: 16px;
+	position: relative;
 	}
 
 .home {
@@ -207,7 +208,7 @@ ul {
 }
 
 footer {
-	position: fixed;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -282,6 +283,7 @@ footer {
 	#booking-main {
 		float: none;
 		width: 100%;
+	
 	}
 }
 
