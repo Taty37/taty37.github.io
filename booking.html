@@ -13,72 +13,73 @@
   </head>
   <body class="booking">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand font-italic" href="#"><strong>Marilyn's Monroe</strong></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <a class="navbar-brand font-italic" href="#"><strong>Marilyn's Monroe</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           More...
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="aboutme.html">About Me</a>
-          <a class="dropdown-item" href="services.html">Services</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="gallery.html">Gallery</a>
-          <a class="dropdown-item" href="booking.html">Book Now!</a>
-        </div>
-    </ul>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="aboutme.html">About Me</a>
+      <a class="dropdown-item" href="services.html">Services</a>
+    <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="gallery.html">Gallery</a>
+      <a class="dropdown-item" href="booking.html">Book Now!</a>
+    </div>
+  </ul>
   </div>
 </nav>
 
- <section id="booking-main">  
-  <div class="container">
-    <div class="col">
-    <form id="new-booking">
-      <h1 class="text-center">New Booking</h1>
-      <div class="form-group font-weight-bold">
-        <label for="name">Full Name</label>
-        <input type="text" class="form-control" id="name" placeholder="Enter Full Name">
-      </div>
+  <section id="booking-main">  
+    <div class="container">
+      <div class="col">
+        <form id="new-booking">
+          <h1 class="text-center">New Booking</h1>
+          <div class="form-group font-weight-bold">
+          <label for="name">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter Full Name">
+        </div>
       <div class="form-group font-weight-bold">
         <label for="email">Email Address</label>
         <input type="text" class="form-control" id="email" placeholder="Enter Email Address">
       </div>
-      <div class="form-group font-weight-bold">
-        <label for="service">Service Type</label>
-        <div class="input-group mb-3">
-  <select class="custom-select" id="inputGroupSelect02">
-    <option selected>Choose...</option>
-    <option value="1">Glam</option>
-    <option value="2">Natural</option>
-    <option value="3">Bridal</option>
-    <option value="4">Editorial</option>
-    <option value="5">Film</option>
-    <option value="6">Halloween</option>
-  </select>
-  <div class="input-group-append">
-    <label class="input-group-text" for="inputGroupSelect02">Options</label>
+    <div class="form-group font-weight-bold">
+      <label for="service">Service Type</label>
+    <div class="input-group mb-3">
+      <select class="custom-select" id="inputGroupSelect02">
+      <option selected>Choose...</option>
+      <option value="1">Glam</option>
+      <option value="2">Natural</option>
+      <option value="3">Bridal</option>
+      <option value="4">Editorial</option>
+      <option value="5">Film</option>
+      <option value="6">Halloween</option>
+      </select>
+    <div class="input-group-append">
+      <label class="input-group-text" for="inputGroupSelect02">Options</label>
+    </div>
+    </div>
   </div>
-</div>
-      </div>
-      <div class="form-group font-weight-bold">
-        <label for="details">Specific Requests</label>
-        <textarea class="form-control font-weight-bold" id="details" rows="3" placeholder="Enter request here"></textarea>
-      </div>
-      <div class="form-group font-weight-bold">
+      
+  <div class="form-group font-weight-bold">
+    <label for="details">Specific Requests</label>
+      <textarea class="form-control font-weight-bold" id="details" rows="3" placeholder="Enter request here"></textarea>
+  </div>
+  <div class="form-group font-weight-bold">
     <label for="exampleFormControlFile1">Image Reference</label>
     <input type="file" class="form-control-file" id="exampleFormControlFile1">
   </div>
-      <button type="submit" class="btn btn-primary" id="book-btn">Book Now!!!</button>
-    </form>
+    <button type="submit" class="btn btn-primary" id="book-btn">Book Now!!!</button>
+  </form>
   </div>
-</div>
+  </div>
 </section> 
  
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
